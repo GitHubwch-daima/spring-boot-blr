@@ -1,0 +1,10 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /download-azure
+logging:
+  level:
+    root: info
+    com.azure: debug
+download:
+  file: D:\environment\idea\workspace\spring-boot-blr\spring-boot-download\src\main\resources\download

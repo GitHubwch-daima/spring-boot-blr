@@ -1,0 +1,16 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /upload-azure
+spring:
+  servlet:
+    multipart: #修改文件上传的大小限制
+      max-request-size: 120MB #请求传递的文件大小
+      max-file-size: 120MB #运行服务区可以处理的最大文件大小
+upload:
+  file:
+    images: D:\\environment\\idea\\workspace\\spring-boot-blr\\spring-boot-upload\\src\\main\\resources\\templates\\upload
+logging:
+  level:
+    root: info
+    com.azure: debug

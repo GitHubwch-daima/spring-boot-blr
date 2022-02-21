@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>download</title>
+</head>
+<body>
+<h1>测试文件下载</h1>
+<a th:href="@{'/file/download?fileName=download.txt'}">download.txt</a>
+<!--格式：<a th:href="@{'/pageController?pageNum='+${pageNum}}" th:text="${pageNum}"></a> ；-->
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf</title>
+    <!--引入css-->
+    <link rel="stylesheet" th:href="@{/test.css}">
+    <!--引入js-->
+    <script th:src="@{/test.js}"></script>
+    <script>
+        test();
+        let contextPath = "[[@{/}]]";
+        console.log('项目名：', contextPath)
+    </script>
+</head>
+<body>
+<h1>thymeleaf的使用</h1>
+<h2>展示单个数据</h2>
+<h4>HttpServletRequest获取单个数据：<span th:text="${testName}"></span></h4>
+<h4>Model获取单个数据：<span th:text="${testAge}"></span></h4>
+<h4>Model获取超级连接：<span th:utext="${baidu}"></span></h4>
+<input type="text" name="username" th:value="${testAge}">
+<hr/>
+<h2>展示对象里的数据</h2>
+<h4>Model获取对象的值：
+    id：<span th:text="${user.getId()}"></span>
+    name：<span th:text="${user.getName()}"></span>
+    bir：<span th:text="${#dates.format(user.getBirthday(),'yyyy-MM-dd HH:mm:ss')}"></span>
+</h4>
+<h4>Model获取list里的对象：
+    <li th:each="user,state:${userList}">
+        数量：<span th:text="${state.count}"></span>
+        奇数：<span th:text="${state.odd}"></span>
+        偶数：<span th:text="${state.even}"></span>
+        长度：<span th:text="${state.size}"></span>
+        id：<span th:text="${user.getId()}"></span>
+        name：<span th:text="${user.getName()}"></span>
+        bir：<span th:text="${#dates.format(user.getBirthday(),'yyyy-MM-dd')}"></span>
+    </li>
+</h4>
+
+<hr/>
+<h2>有条件的展示数据</h2>
+<div style="width: 100px;height: 30px;background: aqua" th:if="${testAge>20}">
+    aqua
+</div>
+<h4>获取session中的数据：<span th:text="${session.sessionKey}"></span></h4>
+</body>
+</html>
