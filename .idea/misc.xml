@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/spring-boot-upload/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-download/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-exception-now/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,13 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /azure
+spring:
+  thymeleaf:
+    cache: false #\u5173\u95ED\u7F13\u5B58
+    prefix: classpath:/templates/ #\u9759\u6001\u8D44\u6E90\u4F4D\u7F6E
+    suffix: .html #\u6587\u4EF6\u540E\u7F00
+logging:
+  level:
+    root: info
+    com.azure: debug

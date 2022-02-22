@@ -4,6 +4,6 @@ server:
     context-path: /azure
 spring:
   thymeleaf:
-    cache: false #\u5173\u95ED\u7F13\u5B58
-    prefix: classpath:/templates/ #\u6307\u5B9A\u6A21\u677F\u4F4D\u7F6E
-    suffix: .html #\u6307\u5B9A\u540E\u7F00
+    cache: false #关闭缓存
+    prefix: classpath:/templates/ #静态资源位置
+    suffix: .html #文件后缀

@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-upload" />
+        <module name="spring-boot-exception" />
+        <module name="spring-boot-exception-now" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-download" />
       </profile>
@@ -15,6 +17,8 @@
     <bytecodeTargetLevel target="8">
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-download" target="1.8" />
+      <module name="spring-boot-exception" target="1.8" />
+      <module name="spring-boot-exception-now" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-upload" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +27,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-download" options="-parameters" />
+      <module name="spring-boot-exception" options="-parameters" />
+      <module name="spring-boot-exception-now" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-upload" options="-parameters" />
     </option>

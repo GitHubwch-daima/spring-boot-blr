@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>thymeleaf</title>
@@ -9,6 +9,7 @@
     <script th:src="@{/test.js}"></script>
     <script>
         test();
+        //通过js代码获取项目名（thymeleaf的内联表达式[[thymeleaf]]）
         let contextPath = "[[@{/}]]";
         console.log('项目名：', contextPath)
     </script>
