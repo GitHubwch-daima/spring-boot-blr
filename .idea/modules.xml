@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-cors/spring-boot-cors.iml" filepath="$PROJECT_DIR$/spring-boot-cors/spring-boot-cors.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-download/spring-boot-download.iml" filepath="$PROJECT_DIR$/spring-boot-download/spring-boot-download.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" filepath="$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-exception-now/spring-boot-exception-now.iml" filepath="$PROJECT_DIR$/spring-boot-exception-now/spring-boot-exception-now.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jasypt/spring-boot-jasypt.iml" filepath="$PROJECT_DIR$/spring-boot-jasypt/spring-boot-jasypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-upload/spring-boot-upload.iml" filepath="$PROJECT_DIR$/spring-boot-upload/spring-boot-upload.iml" />
     </modules>

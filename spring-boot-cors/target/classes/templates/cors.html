@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cors</title>
+    <script>
+        function test() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.status == 200 && xhr.readyState == 4) {
+                    console.log(xhr.responseText);
+                    document.getElementById("msg").innerText="返回结果为：" + xhr.responseText;
+                }
+            }
+            xhr.open("GET", "http://127.0.0.1:8989/azure/demo");
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+<h1 style="color: red">CORS!!!</h1>
+<input type="button" value="点我发送ajax请求" onclick="test()">
+<h4 id="msg"></h4>
+</body>
+</html>

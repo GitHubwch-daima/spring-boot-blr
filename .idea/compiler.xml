@@ -7,18 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-thymeleaf" />
-        <module name="spring-boot-upload" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-exception-now" />
+        <module name="spring-boot-cors" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-download" />
+        <module name="spring-boot-jasypt" />
+        <module name="spring-boot-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="spring-boot-aop" target="1.8" />
+      <module name="spring-boot-cors" target="1.8" />
       <module name="spring-boot-download" target="1.8" />
       <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-exception-now" target="1.8" />
+      <module name="spring-boot-jasypt" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-upload" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,9 +30,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-aop" options="-parameters" />
+      <module name="spring-boot-cors" options="-parameters" />
       <module name="spring-boot-download" options="-parameters" />
       <module name="spring-boot-exception" options="-parameters" />
       <module name="spring-boot-exception-now" options="-parameters" />
+      <module name="spring-boot-jasypt" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-upload" options="-parameters" />
     </option>

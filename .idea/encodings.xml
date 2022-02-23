@@ -3,9 +3,11 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-upload/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-cors/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-download/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-exception-now/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jasypt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-upload/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../../maven-repository/org/springframework/boot/spring-boot-starter-parent/2.6.3/src/main/resources" charset="UTF-8" />

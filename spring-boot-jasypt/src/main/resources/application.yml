@@ -1,0 +1,24 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /azure
+mysql:
+  host: ENC(jqtgDQwHEeKglszskd3oUl5/fzMloD3/GrvXKMaWCVk2tpNPY0IsRc+EZMVlRVSEn1GTVn+DHSErNgc3ItvRqw==)
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${mysql.host}/test?serverTimezone=Asia/Shanghai&autoReconnect=true&useSSL=false&characterEncoding=utf8&useUnicode=true
+    username: ENC(wAze6SY4WodtsxPsVrAmnRw+2rK34g0J+jEJh6//++Fj215jS36KbUaX8yZvNRoe)
+    password: ENC(0FyEvUMKgGHPytA7JaUSo6R0Dep4w6V54EWnxKyFzM488X7nEHxuIBr3B2L5/DS7)
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.azure.entity
+logging:
+  level:
+    root: info
+    com.azure: debug
+jasypt:
+  encryptor:
+    algorithm: PBEWITHHMACSHA512ANDAES_256 #\u6307\u5B9A\u52A0\u5BC6\u7B97\u6CD5
+#    password: wangazure                    #\u6307\u5B9A\u5BC6\u94A5      \u628A\u6B63\u786E\u7684\u5BC6\u94A5\u7ED9\u4ED6 -Djasypt.encryptor.password=wangazure
